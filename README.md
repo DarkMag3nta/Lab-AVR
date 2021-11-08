@@ -1,5 +1,5 @@
 # Jakub Malik
-# Projekt na laboratorium 
+# Projekt na laboratorium Techniki mikroprocesorowej
 
 ## Temat projektu
 Układ będzie odczytywał karty magnetyczne i informował użytkownika za pomocą ekranu LCD oraz diody LED o przyznaniu lub odmowie dostępu
