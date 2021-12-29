@@ -2,12 +2,14 @@
 # Projekt na laboratorium Techniki mikroprocesorowej
 
 ## Temat projektu
-Układ będzie odczytywał karty magnetyczne i informował użytkownika za pomocą ekranu LCD oraz diody LED o przyznaniu lub odmowie dostępu
+W ramach tego projektu zamierzam zbudować i zaprogramować system bezpieczeństwa oparty na tokenach RFID. Układ będzie decydował o udzieleniu dostępu (otwarciu np. drzwi) na podstawie zastosowanej przez użytkownika karcie bądź breloku RFID. Konstrukcja zostanie wykonana w oparciu o mikrokontroler ATMega 32A-PU.
 
 ## Lista elementów
-- Arduino UNO, [link](https://allegro.pl/oferta/arduino-uno-r3-atmega328-ch340-avr-klon-fv-7645191761)
-- czytnik RFID RC522, [link](https://botland.com.pl/moduly-i-tagi-rfid/10574-czytnik-rfid-rc522-1356mhz-spi-karta-i-brelok-czerwony-iduino-me138-5903351241168.html)
-- wyświetlacz LCD 2x16, [link](https://botland.com.pl/wyswietlacze-alfanumeryczne-i-graficzne/2351-wyswietlacz-lcd-2x16-znakow-niebieski-konwerter-i2c-lcm1602.html)
-- konwerter I2C LCM1602, 
-- czerwona oraz zielona dioda LED, 
-- 2x rezystor 1k.
+**Hardware:** ATMega 32A-PU, programator AVR, wyświetlacz LCD 16x2, moduł RFID RC522, karta oraz brelok RFID, zasilanie 5V, przewody, płytka prototypowa
+**Software:** Visual Studio Code
+
+## Dlaczego ATMega32A-PU
+Mój wybór padł na ten konkretny mikrokontroler, ponieważ w opinii wielu, ukontrolery produkowane przez firmę Atmel są świetnym rozwiązaniem na początek przygody z programowaniem. W internecie znajdziemy olbrzymią liczbę opracowań różnych problemów i rozwiązań na jakie możemy się natknąć w trakcie pracy z ukontrolerem.
+
+## Dlaczego moduł RFID RC522
+Głównym powodem wyboru tego konkretnego modułu była moja styczność z nim w trakcie realizacji poprzednich projektów. Układ jest stosunkowo łatwy w obsłudze, tani oraz posiada na start, w zestawie, kartę oraz brelok RFID. Płytka umożliwia odczyt i zapis danych z urządzeń RFID na częstotliwości 13,56 MHz, oparty jest o popularny układ RC522, posiada wbudowaną antenę, a zasilany jest napięciem 3,3V.
