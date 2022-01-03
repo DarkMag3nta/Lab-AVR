@@ -5,7 +5,7 @@
 W ramach tego projektu zamierzam zbudować i zaprogramować system bezpieczeństwa oparty na tokenach RFID. Układ będzie decydował o udzieleniu dostępu (otwarciu np. drzwi) na podstawie zastosowanej przez użytkownika karcie bądź breloku RFID. Konstrukcja zostanie wykonana w oparciu o mikrokontroler ATMega 32A-PU.
 
 ## Lista elementów
-**Hardware:** ATMega 32A-PU, programator AVR, wyświetlacz LCD 16x2, moduł RFID RC522, karta oraz brelok RFID, zasilanie 5V, przewody, płytka prototypowa \
+**Hardware:** ATMega 32A-PU, programator AVR, wyświetlacz LCD 16x2, moduł RFID RC522, karta oraz brelok RFID, zasilanie 5V, przewody, płytka prototypowa, kondensatory 100u oraz 100n, diody LED, rezystory 10k \
 **Software:** Visual Studio Code
 
 ## Dlaczego ATMega32A-PU
