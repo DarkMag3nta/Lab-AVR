@@ -34,6 +34,8 @@ Wyprowadzenie `IRQ` modułu `RFID RC522` nie jest połączone, natomiast `GND` �
 \
 Pin `1` wyświetlacza połączono z `GND`, natomiast `3` z `+5V`.
 
+## Zawartość pliku main.c
+
 ```cpp
 uint8_t SelfTestBuffer[64];
 
