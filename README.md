@@ -286,4 +286,4 @@ uint8_t mfrc522_to_card(uint8_t cmd, uint8_t *send_data, uint8_t send_data_len, 
 }
 ```
 ## Notatka od autora
-Należy zwrócić szczególną uwagę przy podłączniu ukontrolera do programatora, ponieważ nieuważne wykonanie połączeń niechybnie doprowadzi do spalenia układu. Jest to związane z zagadnieniem minimalnej liczby połączeń ukontrolera o czym autor zapomniał, w wyniku czego układ zrobił puf.
+Należy zwrócić szczególną uwagę przy podłączniu ukontrolera do zasilania, ponieważ nieuważne wykonanie połączeń niechybnie doprowadzi do spalenia układu. Jest to związane z zagadnieniem minimalnej liczby połączeń ukontrolera o czym autor zapomniał, w wyniku czego układ zrobił puf.
