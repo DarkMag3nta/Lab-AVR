@@ -36,7 +36,9 @@ Wyprowadzenie `IRQ` modułu `RFID RC522` nie jest połączone, natomiast `GND` �
 - `PA6` ⟶ `D6`
 - `PA7` ⟶ `D7`
 \
-Pin `1` wyświetlacza połączono z `GND`, natomiast `3` z `+5V`.
+Pin `1` wyświetlacza połączono z `GND`, natomiast `3` z `+5V`. \
+Finalnie połączony układ wygląda następująco:
+![img](./hardware/układ.jpg)
 
 ## Zawartość pliku main.c
 
