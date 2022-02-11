@@ -100,3 +100,5 @@ int main(void)
     _delay_ms(1000);
   }
 }
+```
+Powyższy kod sprawdza i weryfikuje obecność karty RFID oraz wyświetla czy użyta została karta A czy B.
