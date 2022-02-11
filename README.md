@@ -10,11 +10,13 @@ W ramach tego projektu zamierzam zbudować i zaprogramować system bezpieczeńst
 
 # Dlaczego ATMega32A-PU
 Mój wybór padł na ten konkretny mikrokontroler, ponieważ w opinii wielu, ukontrolery produkowane przez firmę Atmel są świetnym rozwiązaniem na początek przygody z programowaniem. W internecie znajdziemy olbrzymią liczbę opracowań różnych problemów i rozwiązań na jakie możemy się natknąć w trakcie pracy z ukontrolerem.
-![img] (./hardware/ATMega32A.JPG)
+
+![img] (./hardware/ATMega32A.jpg)
 
 # Dlaczego moduł RFID RC522
 Głównym powodem wyboru tego konkretnego modułu była moja styczność z nim w trakcie realizacji poprzednich projektów. Układ jest stosunkowo łatwy w obsłudze, tani oraz posiada na start, w zestawie, kartę oraz brelok RFID. Płytka umożliwia odczyt i zapis danych z urządzeń RFID na częstotliwości 13,56 MHz, oparty jest o popularny układ RC522, posiada wbudowaną antenę, a zasilany jest napięciem 3,3V.
-![img] (./hardware/RFID522.JPG)
+
+![img] (./hardware/RFID522.jpg)
 
 # Wymagane połaczenia
 ## ATMega32A ⟶ RFID RC522
