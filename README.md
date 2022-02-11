@@ -13,3 +13,11 @@ Mój wybór padł na ten konkretny mikrokontroler, ponieważ w opinii wielu, uko
 
 ## Dlaczego moduł RFID RC522
 Głównym powodem wyboru tego konkretnego modułu była moja styczność z nim w trakcie realizacji poprzednich projektów. Układ jest stosunkowo łatwy w obsłudze, tani oraz posiada na start, w zestawie, kartę oraz brelok RFID. Płytka umożliwia odczyt i zapis danych z urządzeń RFID na częstotliwości 13,56 MHz, oparty jest o popularny układ RC522, posiada wbudowaną antenę, a zasilany jest napięciem 3,3V.
+
+## Wymagane połaczenia
+ATMega32A ⟶ RFID RC522
+- `PB4` ⟶ `SDA/SS`
+- `PB5` ⟶ `MOSI`
+- `PB6` ⟶ `MISO`
+- `PB7` ⟶ `SCK`
+Wyprowadzenie `IRQ` modułu `RFID RC522` nie jest połączone, natomiast `GND` ⟶ `GND`, `RST` ⟶ `+3.3V`, `3.3V` ⟶ `+3.3V`
