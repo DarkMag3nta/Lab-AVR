@@ -22,7 +22,7 @@ ATMega32A ⟶ RFID RC522
 - `PB7` ⟶ `SCK`
 \
 Wyprowadzenie `IRQ` modułu `RFID RC522` nie jest połączone, natomiast `GND` ⟶ `GND`, `RST` ⟶ `+3.3V`, `3.3V` ⟶ `+3.3V`
-\
+\\
 ATMega32A ⟶ LCD
 - `PA0` ⟶ `RS`
 - `PA1` ⟶ `RW`
