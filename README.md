@@ -106,7 +106,7 @@ int main(void)
 }
 ```
 Powyższy kod sprawdza i weryfikuje obecność karty RFID oraz wyświetla, czy użyta została karta A czy B. \
-Aby obsługa modułu `RFID RC522` była możliwa, wymagane było napisanie odpowiedniej biblioteki odpowiedzialnych za uruchomienie i komunikację modułu z ukontrolerem.
+Aby obsługa modułu `RFID RC522` była możliwa, wymagane było napisanie odpowiedniej biblioteki odpowiedzialnej za uruchomienie i komunikację modułu z ukontrolerem.
 
 ## Zawartość pliku rfid522.c
 ```cpp
